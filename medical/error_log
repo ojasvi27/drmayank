@@ -1,0 +1,4 @@
+[22-Apr-2016 16:38:04 Asia/Kolkata] PHP Warning:  mail() expects at most 5 parameters, 6 given in /home/learnsoft/public_html/drmayank/medical/contact.php on line 73
+[25-Apr-2016 12:29:29 Asia/Kolkata] PHP Warning:  mail() expects at most 5 parameters, 6 given in /home/learnsoft/public_html/drmayank/medical/appointment.php on line 322
+[25-Apr-2016 12:30:12 Asia/Kolkata] PHP Warning:  mail() expects at most 5 parameters, 6 given in /home/learnsoft/public_html/drmayank/medical/appointment.php on line 322
+[03-May-2016 11:48:32 Asia/Kolkata] PHP Warning:  mail() expects at most 5 parameters, 6 given in /home/learnsoft/public_html/drmayank/medical/contact.php on line 73
