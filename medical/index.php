@@ -36,6 +36,17 @@
           </div>
         </div>
       </li>
+      
+      <li class="flex-active-slide" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 2;"> <img draggable="false" src="images/achiever.jpg" class="gallery-post-single" alt="Medical Services &lt;span&gt;That You Can Trust&lt;/span&gt;">
+        <div class="content-wrapper clearfix">
+          <div class="container">
+            <div class="slide-content clearfix ">
+              <h1 style="color:#FFF; padding:20px; margin:10px;">Dr. Mayank Madan Manjul Honours & Achievemnent</h1>
+  
+         
+          </div>
+        </div>
+      </li>
       <li class="" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;"> <img draggable="false" src="images/slide-two.jpg" class="gallery-post-single" alt="We &lt;span&gt;Care&lt;/span&gt; for &lt;span&gt;You&lt;/span&gt;">
         <div class="content-wrapper clearfix">
           <div class="container">
@@ -323,41 +334,105 @@ This type of treatment is medical treatment and surgical treatment are available
       <div class="col-lg-12 col-md-12 col-sm-12 text-center">
         <div class="slogan-section animated fadeInUp clearfix ae-animation-fadeInUp">
           <h2>What patients say <span>About Dr Mayank</span></h2>
-          <p>Lorem
-            ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy 
-            nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+          <p></p>
         </div>
       </div>
       <div class="col-lg-10 col-md-10 col-sm-10 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 text-center">
         <div style="height: 393px;" class="flexslider-three animated fadeInUp ae-animation-fadeInUp">
           <ul class="slides">
-            <li class="flex-active-slide" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 2;"> <img draggable="false" src="images/14.jpg" class="img-circle wp-post-image" alt="author-22" srcset="" height="130" width="130">
+            <li class="flex-active-slide" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 2;"> <img draggable="false" src="images/female.jpg"class="img-circle wp-post-image" alt="author-22" srcset="" height="100" width="200">
               <blockquote>
-                <p>Lorem ipsum dolor sit amet, 
-                  consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-                  laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim 
-                  veniam quis nostrud exerci tation.</p>
+                <p>I was suffering from acute cholecystitis and was in severe pain and was luckily referred to Dr Mayank Madan.He operated upon me on an urgent basis and my gall bladder was removed (laproscopic cholecystectomy).I was out of hospital within 24 hours of surgery  and back to work in 3 days. I was suffering from acute cholecystitis and was in severe pain and was luckily referred to Dr Mayank Madan.He operated upon me on an urgent basis and my gall bladder was removed (laproscopic cholecystectomy).I was out of hospital within 24 hours of surgery  and back to work in 3 days.</p>
               </blockquote>
               <div class="testimonial-footer clearfix">
-                <h3>Marina Forrest</h3>
+                <h3>kanika Ghai</h3>
                 <div class="for-border"></div>
-                <p><a target="_blank" href="http://wordpress.org/">Autommatic</a></p>
+                <p><a target="_blank" href="http://wordpress.org/"></a></p>
               </div>
             </li>
-            <li class="" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;"> <img draggable="false" src="images/12.jpg" class="img-circle wp-post-image" alt="author-11" srcset="" height="130" width="130">
+            <li class="" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;"> <img draggable="false" src="images/p.jpg" class="img-circle wp-post-image" alt="author-11" srcset="" height="350" width="300">
               <blockquote>
-                <p>Lorem ipsum dolor sit amet, 
-                  consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-                  laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim 
-                  veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
-                  aliquip ex ea commodo consequat.</p>
+                <p>Mere Jivan Datta Namaskar,</p>
+ <p> Sir, I & My family special my Mother all are very thankful to you that you have saved my life in too much critical illness. Being a Doctor you are not less than God for me. Really you are a brilliant Doctor as well as human being.</p>
               </blockquote>
               <div class="testimonial-footer clearfix">
-                <h3>Jaden Wayne</h3>
+                <h3>Muni Ram </h3>
                 <div class="for-border"></div>
-                <p><a target="_blank" href="http://themeforest.net/">Themeforest</a></p>
+                <p><a target="_blank" href="http://themeforest.net/">hygiene Manager Nagarro
+
+ </a></p>
               </div>
             </li>
+            
+              <li class="" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;"> <img draggable="false" src="images/p.jpg" class="img-circle wp-post-image" alt="author-11" srcset="" height="350" width="300">
+              <blockquote>
+                <p>Mere Jivan Datta Namaskar,</p>
+ <p> Sir, I & My family special my Mother all are very thankful to you that you have saved my life in too much critical illness. Being a Doctor you are not less than God for me. Really you are a brilliant Doctor as well as human being.</p>
+              </blockquote>
+              <div class="testimonial-footer clearfix">
+                <h3>Muni Ram </h3>
+                <div class="for-border"></div>
+                <p><a target="_blank" href="http://themeforest.net/">hygiene Manager Nagarro
+
+ </a></p>
+              </div>
+            </li>
+             <li class="" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;"> <img draggable="false"  src="images/famale1.jpg" class="img-circle wp-post-image" alt="author-11" srcset="" height="100" width="200">
+              <blockquote>
+ <p>  4 year back I had an operation for losing my weight. Earlier my weight was 150kg but after operation which is being operated by Dr. Mayank Madan(Artemis Hospital ) i weight 95 kg. Earlier I wasn't able to enjoy my life due to over weight but now i am enjoing each and every moment of my life. I am having a happy life now.  </p>
+              </blockquote>
+              <div class="testimonial-footer clearfix">
+                <h3>Kavita Aggrawal</h3>
+                <div class="for-border"></div>
+                <p><a target="_blank" href="http://themeforest.net/">
+
+ </a></p>
+              </div>
+            </li>
+            
+              <li class="" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;"> <img draggable="false" src="images/q.JPG"class="img-circle wp-post-image" alt="author-11" srcset="" height="150" width="200">
+              <blockquote>
+                <p style="font-size:12px;"> I started to experience minor pains in my upper abdomen, under my ribs in April 2012. I would
+
+usually ignore it until one day when it was paining a lot. After then, i went to a hospital where I
+
+was diagnosed with gallstones by Dr. Mayank Madan. He was really patient to listen to my
+
+problem, after a sound checkup i was advised to have an ultrasound. After the reports came in I
+
+came to know that I had stones in my gall bladder. Hearing this, I was advised by DR Mayank to
+
+have a surgery asap. I'd usually care to go to many other doctors before having surgery but this dr
+
+seemed so humble, kind and intelligent. I was overwhelmed with his treatment. Before the surgery,
+
+he told me everything about the procedure of the surgery in detail, cleared out my doubts, calmed
+
+me a lot so i can be ready for the surgery. The anesthesiatic advised me to have a blood donor but
+
+when i talked about this to Dr. Mayank he told me to not to worry about it as not much blood will
+
+be lost while doing the surgery. He was helpful in every way as u would like a doctor to be. The
+
+surgery took place successfully. Even after the surgery, during various checkups, he advised me
+
+what to do and what not to... Told me every possible thing related to post surgery care. Also he
+
+gave me his phone number just in case if there was any problem. After the surgery, i'm feeling
+
+good. No problems arose. I feel lucky and overwhelmed to have Dr. Mayank perform my surgery.
+
+Totally the best Doctor i feel anyone can trust for treatment.</p>
+              </blockquote>
+              <div class="testimonial-footer clearfix">
+                <h3>Muni Ram </h3>
+                <div class="for-border"></div>
+                <p><a target="_blank" href="http://themeforest.net/">hygiene Manager Nagarro
+
+ </a></p>
+              </div>
+            </li>
+            
           </ul>
           <ul class="flex-direction-nav">
             <li><a class="flex-prev" href="#">Previous</a></li>
