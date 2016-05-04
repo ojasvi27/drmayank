@@ -14,7 +14,30 @@
 <meta name="format-detection" content="telephone=no">
 
 <?php include('include/head.php'); ?>
-
+<script language="JavaScript">
+<!--
+function calculateBmi() {
+var weight = document.bmiForm.weight.value
+var height = document.bmiForm.height.value
+if(weight > 0 && height > 0){	
+var finalBmi = weight/(height/100*height/100)
+document.bmiForm.bmi.value = finalBmi
+if(finalBmi < 18.5){
+document.bmiForm.meaning.value = "That you are too thin."
+}
+if(finalBmi > 18.5 && finalBmi < 25){
+document.bmiForm.meaning.value = "That you are healthy."
+}
+if(finalBmi > 25){
+document.bmiForm.meaning.value = "That you have overweight."
+}
+}
+else{
+alert("Please Fill in everything correctly")
+}
+}
+//-->
+</script>
 </head>
 <body style="margin-bottom: 23px;" class="home page page-id-11 page-parent page-template page-template-home-template page-template-home-template-php inspiry-themes inspiry-medicalpress-theme">
 
@@ -77,7 +100,7 @@
       </div>
       <div class="clearfix">
         <div class="appointment-form clearfix animated">
-          <form novalidate="novalidate" class="clearfix" id="appointment_form_one" action="http://medicalpress.inspirythemes.biz/wp-admin/admin-ajax.php" method="post">
+          <form novalidate class="clearfix" id="appointment_form_one" action="http://medicalpress.inspirythemes.biz/wp-admin/admin-ajax.php" method="post">
             <div class="col-lg-3 col-md-3 col-sm-6  common">
               <input name="name" id="app-name" class="required" placeholder="Name" type="text">
             </div>
@@ -144,7 +167,7 @@ This type of treatment is medical treatment and surgical treatment are available
               <div class="col-lg-3 col-md-3 col-sm-4 icon-wrapper"><img src="images/gym.png"> </div>
               <div class="col-lg-9 col-md-9 col-sm-9">
                   <h3> BMI INDEX </h3>
-<form class="form-inline">
+<form name="bmiForm" class="form-inline">
   <div class="form-group">
     <label for="exampleInputName2">Your Weight(kg):</label>
     <input type="text" name="weight" size="10" class="form-control">
@@ -445,30 +468,7 @@ Totally the best Doctor i feel anyone can trust for treatment.</p>
 </div>
 <?php include('include/footer.php'); ?>
 </body>
-<script language="JavaScript">
-<!--
-function calculateBmi() {
-var weight = document.bmiForm.weight.value
-var height = document.bmiForm.height.value
-if(weight > 0 && height > 0){	
-var finalBmi = weight/(height/100*height/100)
-document.bmiForm.bmi.value = finalBmi
-if(finalBmi < 18.5){
-document.bmiForm.meaning.value = "That you are too thin."
-}
-if(finalBmi > 18.5 && finalBmi < 25){
-document.bmiForm.meaning.value = "That you are healthy."
-}
-if(finalBmi > 25){
-document.bmiForm.meaning.value = "That you have overweight."
-}
-}
-else{
-alert("Please Fill in everything correctly")
-}
-}
-//-->
-</script>
+
 <script type="application/x-javascript" src="index_files/opt_content.js"></script>
 </html>
 <!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/

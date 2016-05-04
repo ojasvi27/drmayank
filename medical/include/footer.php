@@ -28,7 +28,7 @@ Advanced laparoscopic surgery in India i.e. Abdominal Surgery, which includes la
         <div class="footer-bottom animated fadeInDown clearfix ae-animation-fadeInDown">
           <div class="row">
             <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12 ">
-              <p>© Copyright 2016. All Rights Reserved by innovative technology solution</p>
+              <p>© Copyright 2016. All Rights Reserved by Innovative Technology Solution</p>
             </div>
             
           </div>

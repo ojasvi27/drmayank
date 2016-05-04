@@ -31,13 +31,7 @@
        
             
                        <li id="menu-item-307" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-307"><a href="international.php">International Patients</a></li>
-          <!--  <li id="menu-item-308" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-308"><a href="http://medicalpress.inspirythemes.biz/services/">Services</a>
-              <ul style="display: none;" class="sub-menu">
-                <li id="menu-item-309" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-309"><a href="http://medicalpress.inspirythemes.biz/services/3-columns-services/">3 Columns Services</a></li>
-                <li id="menu-item-310" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-310"><a href="http://medicalpress.inspirythemes.biz/services/2-columns-services/">2 Columns Services</a></li>
-                <li id="menu-item-311" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-311"><a href="http://medicalpress.inspirythemes.biz/services/1-column-services/">1 Column Services</a></li>
-              </ul>
-            </li>-->
+          
             <li id="menu-item-314" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-314"><a href="gallery.php">Gallery</a>
             
             </li>
