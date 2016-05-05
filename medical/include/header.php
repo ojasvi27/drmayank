@@ -17,7 +17,7 @@
       <div class="col-lg-12 col-md-12 col-sm-12"> 
         
         <!-- Website Logo -->
-        <div class="logo clearfix"> <a href=""> <img src="" > </a> </div>
+        <div class="logo clearfix"> <a href=""> </a> </div>
         
         <!-- Main Navigation -->
         <nav class="main-menu">
