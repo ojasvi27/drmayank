@@ -100,24 +100,32 @@ alert("Please Fill in everything correctly")
       </div>
       <div class="clearfix">
         <div class="appointment-form clearfix animated">
-          <form novalidate class="clearfix" id="appointment_form_one" action="http://medicalpress.inspirythemes.biz/wp-admin/admin-ajax.php" method="post">
+         <?php 
+$action=$_REQUEST['action']; 
+if ($action=="")    /* display the contact form */ 
+    { 
+    ?> 
+    <form  action="" method="POST" enctype="multipart/form-data"> 
+    
+    <input type="hidden" name="action" value="submit">
             <div class="col-lg-3 col-md-3 col-sm-6  common">
-              <input name="name" id="app-name" class="required" placeholder="Name" type="text">
+            <input name="name" id="app-name" type="text" value="" size="30" placeholder="Name"/>              
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6  common">
-              <input name="number" id="app-number" placeholder="Phone Number" type="text">
+            <input type="text" name="number" id="add-number" placeholder="Phone Number">              
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6  common">
-              <input name="email" id="app-email" class="required email" placeholder="Email Address" type="email">
+            <input name="email" class="required email" type="text" value="" size="30" placeholder="Email Id"/>              
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6  common">
-              <input class="hasDatepicker" name="date" id="datepicker" placeholder="Appointment Date" type="text">
+            <input type="text" name="date" id="date" class="hasDatepicker" placeholder="Appointment Date">		              
             </div>
             <div class="col-lg-11 col-md-11 col-sm-11 common">
+            
               <input name="message" id="app-message" class="required" placeholder="Message" type="text">
             </div>
             <div class="col-lg-1 col-md-1 col-sm-1 common">
-              <input name="Submit" class="btn" value="SEND" type="submit">
+              <input type="submit" value="Submit"/> 
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12">
               <input name="action" value="make_appointment" type="hidden">
@@ -126,6 +134,27 @@ alert("Please Fill in everything correctly")
               <div id="message-sent"></div>
             </div>
           </form>
+<?php 
+    }  
+else                /* send the submitted data */ 
+    { 
+    $name=$_REQUEST['name']; 
+    $email=$_REQUEST['email']; 
+    $date=$_REQUEST['date'];
+	$number=$_REQUEST['number'];
+    $message=$_REQUEST['message']; 
+    if (($name=="")||($email=="")||($date=="")||($number=="")||($message=="")) 
+        { 
+        echo "All fields are required, please fill <a href=\"\">the form</a> again."; 
+        } 
+    else{         
+        $from="From: $name<$email>\r\nReturn-path: $email"; 
+        $subject="Message sent using your contact form"; 
+        mail("drmayankmadan@yahoo.co.in", $subject, $date,$number, $message, $from); 
+        echo "Email sent!"; 
+        } 
+    }   
+?>
         </div>
       </div>
     </div>

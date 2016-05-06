@@ -49,49 +49,60 @@
             <div class="col-lg-10 col-md-10 col-sm-10 col-lg-offset-1 col-md-offset-1 col-sm-offset-1">
                 <div class="appoint-section clearfix">
                     <div class="top-icon"><img src="http://medicalpress.inspirythemes.biz/wp-content/themes/inspiry-medicalpress/images/appoint-form-top.png" alt=""/></div>
-                    <form id="appointment_form_main" action="http://medicalpress.inspirythemes.biz/wp-admin/admin-ajax.php" method="post">
-
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-12 ">
-                                <input type="text" name="name" id="app-name" class="required" placeholder="Name" title="* Please provide your name"/>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 ">
-                                <input type="text" name="number" id="app-number" placeholder="Phone Number" title="* Please provide your phone number."/>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-12 ">
-                                <input type="email" name="email" id="app-email" class="required email" placeholder="Email Address" title="* Please provide a valid email address"/>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 ">
-                                <input type="text" name="date" id="datepicker" placeholder="Appointment Date"/  title="* Please provide appointment date">
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class=" col-lg-12 col-md-12 col-sm-12">
-                                <textarea name="message" id="app-message" class="required" cols="50" rows="1" placeholder="Message" title="* Please provide your message"></textarea>
-                                <input type="hidden" name="action" value="make_appointment">
-                                <input type="hidden" name="nonce" value="9b29040286" />
-                            </div>
-                        </div>
-
-                        
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <input type="submit" name="Submit" class="btn" value="Submit Request"/>
-                                <img src="http://medicalpress.inspirythemes.biz/wp-content/themes/inspiry-medicalpress/images/loader.gif" id="appointment-loader" alt="Loading...">
-                            </div>
-
-                            <div class="col-sm-12">
-                                <div id="message-sent"></div>
-                                <div id="error-container"></div>
-                            </div>
-
-                        </div>
-
-                    </form>
+                    <?php 
+$action=$_REQUEST['action']; 
+if ($action=="")    /* display the contact form */ 
+    { 
+    ?> 
+    <form  action="" method="POST" enctype="multipart/form-data"> 
+    
+    <input type="hidden" name="action" value="submit">     
+    
+    <div class="row">
+         <div class="col-lg-6 col-md-6 col-sm-12 ">    
+    		<input name="name" type="text" value="" size="30" placeholder="Name"/><br> 
+    	 </div>
+    	 <div class="col-lg-6 col-md-6 col-sm-12 ">     
+    		<input name="email" type="text" value="" size="30" placeholder="Email Id"/><br> 
+         </div>
+    </div>
+    <div class="row">
+         <div class="col-lg-6 col-md-6 col-sm-12 ">   
+    <input type="text" name="date" id="date" placeholder="Appointment Date"> <br>
+    	 </div>
+         <div class="col-lg-6 col-md-6 col-sm-12 ">
+    <input type="text" name="number" id="number" placeholder="Phone Number"><br>     
+         </div>
+     </div>
+        <div class="row">
+                            <div class=" col-lg-12 col-md-12 col-sm-12"> 
+     <textarea name="message" rows="7" cols="15" placeholder="Message"></textarea><br> 
+     	 </div>
+	</div>         
+    <input type="submit" value="Submit"/> 
+    </form> 
+    
+    <?php 
+    }  
+else                /* send the submitted data */ 
+    { 
+    $name=$_REQUEST['name']; 
+    $email=$_REQUEST['email']; 
+    $date=$_REQUEST['date'];
+	$number=$_REQUEST['number'];
+    $message=$_REQUEST['message']; 
+    if (($name=="")||($email=="")||($date=="")||($number=="")||($message=="")) 
+        { 
+        echo "All fields are required, please fill <a href=\"\">the form</a> again."; 
+        } 
+    else{         
+        $from="From: $name<$email>\r\nReturn-path: $email"; 
+        $subject="Message sent using your contact form"; 
+        mail("drmayankmadan@yahoo.co.in", $subject, $date,$number, $message, $from); 
+        echo "Email sent!"; 
+        } 
+    }   
+?> 
                 </div>
             </div>
         </div>

@@ -70,7 +70,7 @@ else                /* send the submitted data */
     else{         
         $from="From: $name<$email>\r\nReturn-path: $email"; 
         $subject="Message sent using your contact form"; 
-        mail("ojasvi@itstraining.in",$name, $subject, $message, $from); 
+        mail("drmayankmadan@yahoo.co.in",$name, $subject, $message, $from); 
         echo "Email sent!"; 
         } 
     }   
