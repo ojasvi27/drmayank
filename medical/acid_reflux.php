@@ -30,11 +30,11 @@
                                                 <div class="col-lg-4 col-md-4 col-sm-5 ">
                                 <div class="entry-meta common clearfix">
                                                 <figure>
-                <a class="swipebox" href="images/acid.jpg"  title="Dr.Addison Alexander">
+                <a class="swipebox" href="images/acid.jpg">
                     <img width="670" height="500" src="images/acid.jpg" class="attachment-gallery-post-single size-gallery-post-single wp-post-image" alt="doctor-2" srcset="">                </a>
             </figure>
                                             
-                                    <div class="doctor-departments"> <a href="http://medicalpress.inspirythemes.biz/department/cardiac-clinic/" rel="tag">Cardiac Clinic</a>, <a href="http://medicalpress.inspirythemes.biz/department/primary-health-care/" rel="tag">Primary Health Care</a> </div>
+                                    <div class="doctor-departments"> <a href="">Cardiac Clinic</a>, <a href="">Primary Health Care</a> </div>
                                     <div class="doc-schedule clearfix">
                                         <p><strong>Speciality</strong></p>                                    </div>
                                     <div class="social-icon clearfix">
@@ -90,11 +90,11 @@
 <h3>Is Acid Reflux Genetic?</h3>
 <p>There is abundant evidence showing a link between our genes and acid reflux. Studies in people with acid reflux symptoms and GERD have identified common markers in our DNA associated with acid reflux. </p>
 <h3>Studies in Twins</h3>
-<p>One of the best ways to study the link between a particular condition and genetics is to research it in twins. Identical twins share the same DNA. If both twins have a particular disease, there is likely a genetic cause. 
+<p align="justify">One of the best ways to study the link between a particular condition and genetics is to research it in twins. Identical twins share the same DNA. If both twins have a particular disease, there is likely a genetic cause. 
 One study published in Alimentary Pharmacology & Therapeutics journal found that twins were more likely to both have GERD. The study included 481 identical and 505 fraternal twins. The correlation was stronger in identical twins compared to fraternal twins. This suggests that genetics play a role in causing acid reflux.
 An earlier study published in Gut journal found that one twin was 1.5 times more likely to suffer from GERD if their identical twin had the condition. The study compared heartburn incidence in more than 2,000 sets of identical twins.</p>
 <h3>Family Studies</h3>
-<p>If acid reflux is genetic, this means that multiple family members are more likely to have the condition. Research at the University of Amsterdam found a pattern of inheritance of GERD among multi-generational family members. Of the 28 family members who participated in the study, 17 members from four generations were affected with GERD. However, the researchers couldn't pinpoint the specific gene.
+<p align="justify">If acid reflux is genetic, this means that multiple family members are more likely to have the condition. Research at the University of Amsterdam found a pattern of inheritance of GERD among multi-generational family members. Of the 28 family members who participated in the study, 17 members from four generations were affected with GERD. However, the researchers couldn't pinpoint the specific gene.
 Studies in People with Barrett's Esophagus
 Barrett's esophagus is a serious complication of GERD. It is linked to an increased risk of developing esophageal cancer. Genetics may play an especially important role in Barrett's esophagus.
 A study reported in the journal Nature Genetics found specific gene variants on chromosomes 6 and 16 were linked to a higher risk of Barrett's esophagus. The study found that the closest protein-encoding gene to these variants is FOXF1, which is connected to the development and structure of the esophagus. A 2013 article in the International Journal of Cancer also reported a link among FOXF1, Barrett's esophagus, and esophageal cancer. </p>
@@ -105,7 +105,7 @@ esophageal cancer
 The researchers concluded that GERD has a genetic basis, and they hypothesized that all three diseases are linked to the same gene locus.
 
 <h3>Treatments for Acid Reflux</h3>
-Even if our genes are responsible for causing acid reflux, preventing and treating the symptoms of GERD are still extremely important. GERD is classified when the symptoms of acid reflux happen more than twice a week. People with GERD will need continuous, long-term treatment. Without treatment, the risk of serious complications is much higher. Serious complications can occur if acid reflux isn't controlled by lifestyle changes or over-the-counter (OTC) drugs. These complications can include:
+<p align="justify">Even if our genes are responsible for causing acid reflux, preventing and treating the symptoms of GERD are still extremely important. GERD is classified when the symptoms of acid reflux happen more than twice a week. People with GERD will need continuous, long-term treatment. Without treatment, the risk of serious complications is much higher. Serious complications can occur if acid reflux isn't controlled by lifestyle changes or over-the-counter (OTC) drugs. These complications can include:</p>
 <ul>
 <li>severe chest pain</li>
 <li>	narrowing of the esophagus</li>
@@ -135,8 +135,8 @@ Making important lifestyle changes can help prevent acid reflux. Suggested lifes
 <li>There are many OTC option</Mli>s for minor heartburn. Examples include:</li>
 <li>Acid Blockers (Antacids) </li>
 <li>	Antacids neutralize the stomach acid. They're usually available as chewable or dissolving tablets. Common brands include the following:</li>
-<li>	Alka-Seltzer</li>
-<li>	Mylanta<li>
+<li>Alka-Seltzer</li>
+<li>Mylanta</li>
 <li>Maalox</li>
 <li>Pepto-Bismol</li>
 <li>Rolaids</li>
@@ -183,7 +183,6 @@ Whether or not your acid reflux or GERD has a genetic cause, a combination of li
         
 
 <?php include('include/footer.php'); ?>
-<a href="http://medicalpress.inspirythemes.biz/doctor/dr-addison-alexander/#top" id="scroll-top"></a>
 
 <script type="text/javascript" id="quick-js">
                                     

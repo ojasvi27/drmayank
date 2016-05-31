@@ -23,13 +23,13 @@ if(weight > 0 && height > 0){
 var finalBmi = weight/(height/100*height/100)
 document.bmiForm.bmi.value = finalBmi
 if(finalBmi < 18.5){
-document.bmiForm.meaning.value = "That you are too thin."
+document.bmiForm.meaning.value = "you are too thin."
 }
 if(finalBmi > 18.5 && finalBmi < 25){
-document.bmiForm.meaning.value = "That you are healthy."
+document.bmiForm.meaning.value = "you are healthy."
 }
 if(finalBmi > 25){
-document.bmiForm.meaning.value = "That you have overweight."
+document.bmiForm.meaning.value = "you are overweight."
 }
 }
 else{
@@ -267,9 +267,9 @@ This type of treatment is medical treatment and surgical treatment are available
     <div class="row">
       <div class="col-lg-3 col-md-3 col-sm-6 text-center doctor-wrapper">
         <div class="common-doctor animated fadeInUp clearfix ae-animation-fadeInUp">
-          <figure> <a href="" title="Dr.Addison Alexander"> <img src="images/1.jpg" class="attachment-gallery-post-single size-gallery-post-single wp-post-image" alt="doctor-2"> </a> </figure>
+          <figure> <a href="" > <img src="images/1.jpg" class="attachment-gallery-post-single size-gallery-post-single wp-post-image" alt="doctor-2"> </a> </figure>
           <div class="text-content">
-            <h5><a href="http://medicalpress.inspirythemes.biz/doctor/dr-addison-alexander/">Bariatic Surgery</a></h5>
+            <h5>Bariatic Surgery</h5>
             <div class="for-border"></div>
             <p align="justify"> Most weight loss surgeries today are performed using minimally invasive techniques (laparoscopic surgery). The most common bariatric surgery procedures are gastric bypass, sleeve gastrectomy.  treatment is medical treatment.  </p>
           </div>
@@ -277,7 +277,7 @@ This type of treatment is medical treatment and surgical treatment are available
         <a class="read-more" href="barmatric.php">Read More</a> </div>
       <div class="col-lg-3 col-md-3 col-sm-6 text-center doctor-wrapper">
         <div class="common-doctor animated fadeInUp clearfix ae-animation-fadeInUp">
-          <figure> <a href="http://medicalpress.inspirythemes.biz/doctor/dr-adaline-becka/" title="Dr.Adaline Becka"> <img src="images/c1.jpg"> </a> </figure>
+          <figure><img src="images/c1.jpg"></figure>
           <div class="text-content">
             <h5><a href="1.png">Hernia</a></h5>
             <div class="for-border"></div>
@@ -288,7 +288,7 @@ This type of treatment is medical treatment and surgical treatment are available
       <div class="visible-sm clearfix"></div>
       <div class="col-lg-3 col-md-3 col-sm-6 text-center doctor-wrapper">
         <div class="common-doctor animated fadeInUp clearfix ae-animation-fadeInUp">
-          <figure> <a href="" title="Dr.Andrew Bert"> <img src="images/acid1.jpg" class="attachment-gallery-post-single size-gallery-post-single wp-post-image" alt="doctor-4"  sizes="(max-width: 670px) 100vw, 670px" height="500" width="670"> </a> </figure>
+          <figure> <a href="" > <img src="images/acid1.jpg" class="attachment-gallery-post-single size-gallery-post-single wp-post-image" alt="doctor-4"  sizes="(max-width: 670px) 100vw, 670px" height="500" width="670"> </a> </figure>
           <div class="text-content">
             <h5><a href="acid_reflux.php">Acid Reflux</a></h5>
             <div class="for-border"></div>
@@ -298,9 +298,9 @@ This type of treatment is medical treatment and surgical treatment are available
         <a class="read-more" href="acid_reflux.php">Read More</a> </div>
       <div class="col-lg-3 col-md-3 col-sm-6 text-center doctor-wrapper">
         <div class="common-doctor animated fadeInUp clearfix ae-animation-fadeInUp">
-          <figure> <a href="http://medicalpress.inspirythemes.biz/doctor/dr-orana-taleebin/" title="Dr.Orana Taleebin"> <img src="images/gallbladder1.jpg" class="attachment-gallery-post-single size-gallery-post-single wp-post-image" alt="doctor-3"  sizes="(max-width: 670px) 100vw, 670px" height="500" width="670"> </a> </figure>
+          <figure>  <img src="images/gallbladder1.jpg" class="attachment-gallery-post-single size-gallery-post-single wp-post-image" alt="doctor-3"  sizes="(max-width: 670px) 100vw, 670px" height="500" width="670"></figure>
           <div class="text-content">
-            <h5><a href="http://medicalpress.inspirythemes.biz/doctor/dr-orana-taleebin/">Gall Bladder & Liver</a></h5>
+            <h5><a href="">Gall Bladder & Liver</a></h5>
             <div class="for-border"></div>
             <p align="justify"> The gallbladder is a small pouch that sits just under the liver. The gallbladder stores bile produced by the liver. After meals, the gallbladder is empty and flat, like a deflated balloon. Gallstones can lurk inside your gallbladder.   </p>
           </div>
@@ -368,7 +368,7 @@ This type of treatment is medical treatment and surgical treatment are available
                 <h5 class="entry-title"><a href="http://medicalpress.inspirythemes.biz/the-hero-in-all-of-us/" rel="bookmark"></a></h5>
                 <div class="entry-meta">
 
-                  , <span class="entry-author vcard"> by <a class="url fn" href="http://medicalpress.inspirythemes.biz/author/msaqibsarwar/" title="View all posts by John Doe" rel="author">John Doe</a> </span> </div>
+                  , <span class="entry-author vcard"> by <a class="url fn" rel="author">John Doe</a> </span> </div>
                 <div class="for-border"></div>
                 <p>
 "This is your life and health, it will pay off!! Thanks for change my life health is wealth,Thanks Dr Mayank" </p>
@@ -444,37 +444,8 @@ This type of treatment is medical treatment and surgical treatment are available
             
               <li class="" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;"> <img draggable="false" src="images/q.JPG"class="img-circle wp-post-image" alt="author-11" srcset="" height="150" width="200">
               <blockquote>
-                <p style="font-size:12px;"> I started to experience minor pains in my upper abdomen, under my ribs in April 2012. I would
-
-usually ignore it until one day when it was paining a lot. After then, i went to a hospital where I
-
-was diagnosed with gallstones by Dr. Mayank Madan. He was really patient to listen to my
-
-problem, after a sound checkup i was advised to have an ultrasound. After the reports came in I
-
-came to know that I had stones in my gall bladder. Hearing this, I was advised by DR Mayank to
-
-have a surgery asap. I'd usually care to go to many other doctors before having surgery but this dr
-
-seemed so humble, kind and intelligent. I was overwhelmed with his treatment. Before the surgery,
-
-he told me everything about the procedure of the surgery in detail, cleared out my doubts, calmed
-
-me a lot so i can be ready for the surgery. The anesthesiatic advised me to have a blood donor but
-
-when i talked about this to Dr. Mayank he told me to not to worry about it as not much blood will
-
-be lost while doing the surgery. He was helpful in every way as u would like a doctor to be. The
-
-surgery took place successfully. Even after the surgery, during various checkups, he advised me
-
-what to do and what not to... Told me every possible thing related to post surgery care. Also he
-
-gave me his phone number just in case if there was any problem. After the surgery, i'm feeling
-
-good. No problems arose. I feel lucky and overwhelmed to have Dr. Mayank perform my surgery.
-
-Totally the best Doctor i feel anyone can trust for treatment.</p>
+                <p style="font-size:12px;" align="justify"> I started to experience minor pains in my upper abdomen, under my ribs in April 2012. I would usually ignore it until one day when it was paining a lot. After then, i went to a hospital where I was diagnosed with gallstones by Dr. Mayank Madan. He was really patient to listen to my problem, after a sound checkup i was advised to have an ultrasound. After the reports came in I came to know that I had stones in my gall bladder. Hearing this, I was advised by DR Mayank to have a surgery asap. I'd usually care to go to many other doctors before having surgery but this dr seemed so humble, kind and intelligent. I was overwhelmed with his treatment. Before the surgery,he told me everything about the procedure of the surgery in detail, cleared out my doubts, calmed me a lot so i can be ready for the surgery. The anesthesiatic advised me to have a blood donor but when i talked about this to Dr. Mayank he told me to not to worry about it as not much blood will be lost while doing the surgery. He was helpful in every way as u would like a doctor to be. The surgery took place successfully. Even after the surgery, during various checkups, he advised me what to do and what not to... Told me every possible thing related to post surgery care. Also he gave me his phone number just in case if there was any problem. After the surgery, i'm feeling
+good. No problems arose. I feel lucky and overwhelmed to have Dr. Mayank perform my surgery.Totally the best Doctor i feel anyone can trust for treatment.</p>
               </blockquote>
               <div class="testimonial-footer clearfix">
                 <h3>Muni Ram </h3>
